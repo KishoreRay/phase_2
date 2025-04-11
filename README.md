@@ -52,15 +52,11 @@ This project is a file search system that allows users to search for files based
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate     # On Windows
    ```
-3. **Install dependencies**
-   ```sh
-   pip install -r requirements.txt
-   ```
-4. **Set up `.env` file**
+3. **Set up `.env` file**
    ```sh
    echo "GOOGLE_API_KEY=your_api_key" > .env
    ```
-5. **Initialize the database**
+4. **Initialize the database**
    - Create a PostgreSQL database named `demo`.
    - Create the `file_metadata` table using:
    ```sql
@@ -76,6 +72,8 @@ This project is a file search system that allows users to search for files based
        file_accessed TIMESTAMP
    );
    ```
+5. **Change the scan folder in knowledge_builder.py and Application/Sync.py as per requirement ***
+
 6. **Run the application**
    ```sh
    streamlit run app.py
