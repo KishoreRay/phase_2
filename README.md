@@ -1,4 +1,4 @@
-# phase_2
+# Context Aware Tag Based File Search Using LLMs
 
 ## Overview
 This project is a file search system that allows users to search for files based on natural language queries. The system extracts metadata from files, stores them in a PostgreSQL database, and uses a generative AI model to convert user queries into SQL queries. The results are then rephrased into a human-readable format.
