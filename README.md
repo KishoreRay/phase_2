@@ -88,10 +88,8 @@ This project is a file search system that allows users to search for files based
 - The system retrieves matching files and displays them with previews.
 
 ## Future Enhancements
-- Add OCR for searching within scanned documents.
+- individul object detection within an video make more diverse searching.
 - Improve query understanding using RAG-based retrieval models.
 - Expand supported file formats.
 
-## License
-MIT License
 
